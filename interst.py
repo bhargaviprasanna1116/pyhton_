@@ -1,0 +1,5 @@
+p=int(input("Enter principle ammount:"))
+i=int(input("Enter rate of interst:"))
+t=int(input("Enter time period:"))
+s=((p*i*t)/100)
+print("Simple interst is:",s)
