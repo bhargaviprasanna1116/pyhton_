@@ -1,0 +1,13 @@
+def Display():
+    print("--------------------------")
+    print('python')
+    print('java')
+    print('c')
+    print('c++')
+    print('go-lang')
+    print('SQL')
+Display()
+Display()
+Display()
+Display()
+Display()

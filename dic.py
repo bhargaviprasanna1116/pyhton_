@@ -7,3 +7,6 @@ print(students[134])
 print(students[133])
 print(students[178])
 print(students[166])
+del students[143]
+print(students )
+print(students.get(143))

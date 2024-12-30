@@ -1,0 +1,53 @@
+a=int(input("Enter the ammount:"))
+print("Number of notes required in indian currency dimension")
+print("-----------------------------------------------------")
+c0=0
+c1=0
+c2=0
+c3=0
+c4=0
+c5=0
+c6=0
+c7=0
+c8=0
+c9=0
+while(a>=2000):
+    c0=c0+1
+    a-=2000
+while(a>=500):
+    c1=c1+1
+    a-=500
+while(a>=200):
+    c2=c2+1
+    a-=200
+while(a>=100):
+    c3=c3+1
+    a-=100
+while(a>=50):
+    c4=c4+1
+    a-=50
+while(a>=20):
+    c5=c5+1
+    a-=20
+while(a>=10):
+    c6=c6+1
+    a-=10
+while(a>=5):
+    c7=c7+1
+    a-=5
+while(a>=2):
+    c8=c8+1
+    a-=2
+while(a==1):
+    c9=c9+1
+    a-=1
+print("2000--------->",c0)
+print("500---------->",c1)
+print("200---------->",c2)
+print("100---------->",c3)
+print("50----------->",c4)
+print("20----------->",c5)
+print("10----------->",c6)
+print("5------------>",c7)
+print("2------------>",c8)
+print("1------------>",c9)

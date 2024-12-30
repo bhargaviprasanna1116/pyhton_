@@ -37,3 +37,34 @@ print("--------------------")
 name=r"ramya is dancing"
 print(name)
 print(type(name))
+#membership operators
+n=[1,2,3,4,5]
+print(2 in n)
+st="i am bhavi"
+print("am" in st)
+print("is" not in st)
+#delete operation
+del n[2],n[3]
+print(n)
+s=["hi","hlo","go","no"]
+for i in range(len(s)):
+    print(s[i])
+print("------------")
+for i in s:
+    print(i)
+print("--------------")
+#mutlidimensional list
+num=[[1,2,3],[4,5,6],[7,8,9]]
+print(num)
+print(num[0])
+print(num[0][0])
+print(num[0][1])
+print(num[0][2])
+print(num[1])
+print(num[1][0])
+print(num[1][1])
+print(num[1][2])
+print(num[2])
+print(num[2][0])
+print(num[2][1])
+print(num[2][2])
